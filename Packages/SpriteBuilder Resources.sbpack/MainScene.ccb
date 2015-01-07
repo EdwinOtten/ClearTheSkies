@@ -941,17 +941,17 @@
 			<key>chainedSequenceId</key>
 			<integer>-1</integer>
 			<key>length</key>
-			<real>60</real>
+			<real>120</real>
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>0.86614561080932617</real>
+			<real>0.0</real>
 			<key>position</key>
-			<real>6.7333331108093262</real>
+			<real>4.8666667938232422</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
-			<real>128</real>
+			<real>32</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
 			<key>soundChannel</key>
