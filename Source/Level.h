@@ -14,4 +14,6 @@
     CCNode* _launcher;
 }
 
+@property (nonatomic, strong) NSString *kees;
+
 @end

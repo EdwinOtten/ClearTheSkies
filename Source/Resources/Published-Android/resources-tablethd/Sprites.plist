@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Sprites/airplane_000.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1452, 3372}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_001.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{705, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_002.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3087, 1411}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_003.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1057, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_004.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3087, 1513}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_005.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{531, 3520}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_006.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 3960}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_007.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1761, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_008.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_009.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3087, 1309}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_010.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1409, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_011.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1804, 3372}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_012.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3745, 1959}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_013.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{353, 3960}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_014.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1951, 1309}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/airplane_015.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{353, 1435}, {350, 100}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {350, 100}}</string>
+			<key>sourceSize</key>
+			<string>{350, 100}</string>
+		</dict>
+		<key>Sprites/city.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{531, 1569}, {1949, 919}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1949, 919}}</string>
+			<key>sourceSize</key>
+			<string>{1949, 919}</string>
+		</dict>
+		<key>Sprites/clouds.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1569}, {2389, 528}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {2389, 528}}</string>
+			<key>sourceSize</key>
+			<string>{2389, 528}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-01.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2710, 2789}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-02.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3162, 2789}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-03.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3843, 785}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-04.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2735, 1083}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-05.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1452, 2061}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-06.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1904, 2061}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-07.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2130, 2061}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-08.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2582, 2563}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-09.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2253, 3629}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2936, 2789}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3843, 1}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1951, 1083}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-13.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3519, 1263}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-14.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1678, 2061}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-15.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2303, 1309}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-16.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2356, 2061}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated-17.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2484, 2845}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/dual-grass-animated_00.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2253, 3855}, {782, 224}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {782, 224}}</string>
+			<key>sourceSize</key>
+			<string>{782, 224}</string>
+		</dict>
+		<key>Sprites/gunbarrel.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 4062}, {28, 199}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {28, 199}}</string>
+			<key>sourceSize</key>
+			<string>{28, 199}</string>
+		</dict>
+		<key>Sprites/gunbase-0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1221, 3520}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1737, 3474}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{705, 3520}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2506, 1535}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3560, 2061}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1979, 1537}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3033, 2047}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1452, 2845}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1968, 2845}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/gunbase-9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1452, 1537}, {514, 525}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {514, 525}}</string>
+			<key>sourceSize</key>
+			<string>{514, 525}</string>
+		</dict>
+		<key>Sprites/missile.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3519, 1083}, {178, 253}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {178, 253}}</string>
+			<key>sourceSize</key>
+			<string>{178, 253}</string>
+		</dict>
+		<key>Sprites/paratrooper_000.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{586, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_001.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{781, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_002.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{976, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_003.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1171, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_004.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1561, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_005.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3745, 1569}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_006.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3745, 1764}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_007.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_008.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{196, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_009.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{391, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_010.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1366, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/paratrooper_011.PNG</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1756, 1083}, {193, 350}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {193, 350}}</string>
+			<key>sourceSize</key>
+			<string>{193, 350}</string>
+		</dict>
+		<key>Sprites/playground.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {3840, 1080}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {3840, 1080}}</string>
+			<key>sourceSize</key>
+			<string>{3840, 1080}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>Sprites.png</string>
+	</dict>
+</dict>
+</plist>
