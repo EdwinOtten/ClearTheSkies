@@ -16,32 +16,15 @@ int score;
 
 - (void) onEnter {
     NSMutableArray *paratroopers = [[NSMutableArray alloc] initWithCapacity:40];
-}
-
-
--(void)launchMissile:(id)sender
-{
-    //Calculatie the rotation in radians
-    float rotationRadians = CC_DEGREES_TO_RADIANS(_launcher.rotation);
-    
-    //Vector for the rotation
-    CGPoint directionVector = ccp(sinf(rotationRadians), cosf(rotationRadians));
-    CGPoint missileOffset = ccpMult(directionVector, 50);
-    
-    //Load a missile and set its initial position
-    CCNode* missile = [CCBReader load:@"Missile"];
-    missile.position = ccpAdd(_launcher.position, missileOffset);
-    
-    //Add the missile to the physics node
-    [_physicsNode addChild:missile];
-    
-    //Apply a force to the missile
-    CGPoint force = ccpMult(directionVector, 50000);
-    [missile.physicsBody applyForce:force];
+    self.userInteractionEnabled = TRUE;
+    [super onEnter];
 }
 
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+
     CGPoint positionInScene = [touch locationInNode:_physicsNode];
+    
+    _launcher.rotation = 360+90-[self calculateMissileDegree:&positionInScene];
 
     if(positionInScene.y < _launcher.position.y) {
         return;
@@ -51,18 +34,20 @@ int score;
     float rotationRadians = CC_DEGREES_TO_RADIANS( [self calculateMissileDegree:&positionInScene] );
     
     //Vector for the rotation
-    CGPoint directionVector = ccp(sinf(rotationRadians), cosf(rotationRadians));
-    CGPoint missileOffset = ccpMult(directionVector, 50);
+    CGPoint directionVector = ccp(cosf(rotationRadians), sinf(rotationRadians));
+    CGPoint missileOffset = ccpMult(directionVector, 45);
     
     //Load a missile and set its initial position
     CCNode* missile = [CCBReader load:@"Missile"];
     missile.position = ccpAdd(_launcher.position, missileOffset);
+    missile.scale = 0.40;
+    missile.rotation = _launcher.rotation;
     
     //Add the missile to the physics node
     [_physicsNode addChild:missile];
     
     //Apply a force to the missile
-    CGPoint force = ccpMult(directionVector, 50000);
+    CGPoint force = ccpMult(directionVector, 10000);
     [missile.physicsBody applyForce:force];
     
 }
