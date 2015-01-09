@@ -2,6 +2,5 @@
 {
     CCLabelTTF* _gameTitle;
     CCButton* _btnStartGame;
-    CCScrollView* _scrollview;
-}
+    CCScrollView* _scrollview;}
 @end

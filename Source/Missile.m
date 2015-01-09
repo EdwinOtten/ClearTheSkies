@@ -1,17 +1,17 @@
 //
-//  Paratrooper.m
+//  Missile.m
 //  ClearTheSkies
 //
 //  Created by Edwin on 08/01/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
-#import "Paratrooper.h"
+#import "Missile.h"
 
-@implementation Paratrooper
+@implementation Missile
 
 - (void)didLoadFromCCB {
-    self.physicsBody.collisionType = @"paratrooper";
+    self.physicsBody.collisionType = @"missile";
 }
 
 @end

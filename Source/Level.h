@@ -8,10 +8,13 @@
 
 #import "CCNode.h"
 
-@interface Level : CCNode
+@interface Level : CCNode <CCPhysicsCollisionDelegate>
 {
-    CCNode* _physicsNode;
+    CCPhysicsNode* _physicsNode;
     CCNode* _launcher;
 }
+
+@property BOOL spawnEnabled;
+-(void)spawnAirplane;
 
 @end
