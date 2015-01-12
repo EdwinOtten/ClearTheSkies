@@ -46,23 +46,11 @@ float minDelay,maxDelay;
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair missile:(CCNode *)nodeA airplane:(CCNode *)nodeB
 {
     NSLog(@"Missile collision detected.");
-    CCParticleSystem* smoke = [CCParticleSmoke new];
-    smoke.texture = [[CCTextureCache sharedTextureCache] addImage:@"ccbResources/ccbParticleSmoke.png"];
-    smoke.position = nodeA.position;
-    smoke.scale = .6;
-    smoke.opacity = (CGFloat).01;
-    smoke.life = 1.0;
-    smoke.lifeVar = 0;
-    smoke.duration = 1.00;
-    smoke.speed = 80;
-//    [self addChild:smoke z:2];
-    CCParticleSystem* explosion = [CCParticleExplosion node];
-    explosion.texture = [[CCTextureCache sharedTextureCache] addImage:@"ccbResources/ccbParticleFire.png"];
+    
+    CCNode* explosion = [CCBReader load:@"Explosion"];
     explosion.position = nodeA.position;
-    explosion.scale = .2;
-    explosion.speed = 500;
-    explosion.duration = 1;
-    [self addChild:explosion z:1];
+    explosion.scale = 0.7f;
+    [self addChild:explosion];
     
     [(Missile*)nodeA playSoundExplode];
     [nodeA removeFromParentAndCleanup:TRUE];
