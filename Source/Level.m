@@ -9,6 +9,7 @@
 #import "Level.h"
 #import "Paratrooper.h"
 #import "Airplane.h"
+#import "Missile.h"
 #include <CCTextureCache.h>
 
 @implementation Level
@@ -45,26 +46,25 @@ float minDelay,maxDelay;
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair missile:(CCNode *)nodeA airplane:(CCNode *)nodeB
 {
     NSLog(@"Missile collision detected.");
-    CCParticleSystem* smoke = [CCParticleSmoke node];
+    CCParticleSystem* smoke = [CCParticleSmoke new];
     smoke.texture = [[CCTextureCache sharedTextureCache] addImage:@"ccbResources/ccbParticleSmoke.png"];
     smoke.position = nodeA.position;
     smoke.scale = .6;
     smoke.opacity = (CGFloat).01;
-    smoke.life = 0.5;
+    smoke.life = 1.0;
     smoke.lifeVar = 0;
-    smoke.duration = 1;
-    smoke.speed = 50;
-    smoke.totalParticles = 10;
-    smoke.emissionRate = 1000;
-    [self addChild:smoke z:2];
+    smoke.duration = 1.00;
+    smoke.speed = 80;
+//    [self addChild:smoke z:2];
     CCParticleSystem* explosion = [CCParticleExplosion node];
     explosion.texture = [[CCTextureCache sharedTextureCache] addImage:@"ccbResources/ccbParticleFire.png"];
     explosion.position = nodeA.position;
     explosion.scale = .2;
     explosion.speed = 500;
-    smoke.duration = 4;
+    explosion.duration = 1;
     [self addChild:explosion z:1];
     
+    [(Missile*)nodeA playSoundExplode];
     [nodeA removeFromParentAndCleanup:TRUE];
     [nodeB removeFromParentAndCleanup:TRUE];
 }
@@ -90,7 +90,7 @@ float minDelay,maxDelay;
     CGPoint missileOffset = ccpMult(directionVector, 40);
     
     //Load a missile and set its initial position
-    CCNode* missile = [CCBReader load:@"Missile"];
+    Missile* missile = (Missile*) [CCBReader load:@"Missile"];
     missile.position = ccpAdd(_launcher.position, missileOffset);
     missile.scale = 0.36;
     missile.rotation = _launcher.rotation;

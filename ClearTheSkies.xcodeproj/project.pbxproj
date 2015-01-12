@@ -96,6 +96,7 @@
 		E80CB2CB1A5F6A380000B5AF /* Airplane.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CB2CA1A5F6A380000B5AF /* Airplane.m */; };
 		E81781551A5DF721005C63B1 /* Paratrooper.m in Sources */ = {isa = PBXBuildFile; fileRef = E81781541A5DF721005C63B1 /* Paratrooper.m */; };
 		E8DEA0091A5DE23700652BA4 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DEA0081A5DE23700652BA4 /* Level.m */; };
+		E8E542781A641A7600A67893 /* FlyingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E542771A641A7600A67893 /* FlyingSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +242,8 @@
 		E81781541A5DF721005C63B1 /* Paratrooper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Paratrooper.m; path = Source/Paratrooper.m; sourceTree = "<group>"; };
 		E8DEA0071A5DE23700652BA4 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Level.h; path = Source/Level.h; sourceTree = "<group>"; };
 		E8DEA0081A5DE23700652BA4 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Level.m; path = Source/Level.m; sourceTree = "<group>"; };
+		E8E542761A641A7600A67893 /* FlyingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlyingSprite.h; path = Source/FlyingSprite.h; sourceTree = "<group>"; };
+		E8E542771A641A7600A67893 /* FlyingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlyingSprite.m; path = Source/FlyingSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,6 +484,8 @@
 				E80CB2C91A5F6A380000B5AF /* Airplane.h */,
 				E80CB2CA1A5F6A380000B5AF /* Airplane.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
+				E8E542761A641A7600A67893 /* FlyingSprite.h */,
+				E8E542771A641A7600A67893 /* FlyingSprite.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -882,6 +887,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80CB2C11A5F21A50000B5AF /* Missile.m in Sources */,
+				E8E542781A641A7600A67893 /* FlyingSprite.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				E80CB2CB1A5F6A380000B5AF /* Airplane.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,

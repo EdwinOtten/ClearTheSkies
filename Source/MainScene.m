@@ -9,15 +9,15 @@ bool gameStarted = FALSE;
     if (!gameStarted) {
         _gameTitle.visible = FALSE;
         _btnStartGame.visible = FALSE;
-        CGPoint scrollPosition = _scrollview.scrollPosition;
-        scrollPosition.x += 200;
-        [_scrollview setScrollPosition:scrollPosition animated:FALSE];
-        _scrollview.horizontalScrollEnabled = FALSE;
+        CGPoint levelPosition = _level.position;
+        levelPosition.x -= 182;
+        
+        CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:levelPosition];
+        [_level runAction:actionMoveTo];
         
         // start spawning airplanes
-        Level *level = (Level *) _scrollview.contentNode;
-        level.spawnEnabled = TRUE;
-        [level scheduleOnce:@selector(spawnAirplane) delay:2];
+        _level.spawnEnabled = TRUE;
+        [_level scheduleOnce:@selector(spawnAirplane) delay:2];
         
         gameStarted = TRUE;
         return;

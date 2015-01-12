@@ -15,22 +15,23 @@
 }
 
 -(void)update:(CCTime)delta {
+    
     [self
      moveTo:self.position.x - _speed/30
      y:self.position.y
-    ];
+     ];
+
+    [super update:delta];
 }
 
 -(void)spawn {
     // compute random speed between 60 and 100
     _speed = 70 + arc4random() % (100 - 70);
     
-    
-    
     // compute random spawning position
     int lowerBound = 240;
     int upperBound = 290;
-    int x = 750;
+    int x = 742;
     int y = lowerBound + arc4random() % (upperBound - lowerBound);
     [self moveTo:x y:y];
 }

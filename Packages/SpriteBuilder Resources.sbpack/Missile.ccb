@@ -40,7 +40,7 @@
 		<key>children</key>
 		<array/>
 		<key>customClass</key>
-		<string></string>
+		<string>Missile</string>
 		<key>displayName</key>
 		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
@@ -82,52 +82,16 @@
 					<real>57.387020111083984</real>
 				</array>
 				<array>
-					<real>27.570747375488281</real>
-					<real>40.940822601318359</real>
-				</array>
-				<array>
-					<real>24.867195129394531</real>
-					<real>36.606452941894531</real>
-				</array>
-				<array>
-					<real>28.401453018188477</real>
-					<real>33.138526916503906</real>
-				</array>
-				<array>
 					<real>28.484382629394531</real>
 					<real>29.259769439697266</real>
 				</array>
 				<array>
-					<real>24.617195129394531</real>
-					<real>28.762699127197266</real>
-				</array>
-				<array>
-					<real>24.495124816894531</real>
-					<real>26.890138626098633</real>
-				</array>
-				<array>
-					<real>18.743171691894531</real>
-					<real>26.890138626098633</real>
-				</array>
-				<array>
-					<real>18.120613098144531</real>
-					<real>28.51220703125</real>
+					<real>21.8271484375</real>
+					<real>24.226573944091797</real>
 				</array>
 				<array>
 					<real>13.125007629394531</real>
 					<real>29.613775253295898</real>
-				</array>
-				<array>
-					<real>13.125007629394531</real>
-					<real>33.481941223144531</real>
-				</array>
-				<array>
-					<real>16.742195129394531</real>
-					<real>36.606452941894531</real>
-				</array>
-				<array>
-					<real>14.497566223144531</real>
-					<real>39.476570129394531</real>
 				</array>
 				<array>
 					<real>14.497566223144531</real>
@@ -138,12 +102,20 @@
 			<array>
 				<array>
 					<array>
-						<real>24.867195129394531</real>
-						<real>36.606452941894531</real>
+						<real>14.497566223144531</real>
+						<real>56.242191314697266</real>
 					</array>
 					<array>
-						<real>27.570747375488281</real>
-						<real>40.940822601318359</real>
+						<real>13.125007629394531</real>
+						<real>29.613775253295898</real>
+					</array>
+					<array>
+						<real>21.8271484375</real>
+						<real>24.226573944091797</real>
+					</array>
+					<array>
+						<real>28.484382629394531</real>
+						<real>29.259769439697266</real>
 					</array>
 					<array>
 						<real>26.9984130859375</real>
@@ -152,70 +124,6 @@
 					<array>
 						<real>20.615730285644531</real>
 						<real>63.217781066894531</real>
-					</array>
-					<array>
-						<real>14.497566223144531</real>
-						<real>56.242191314697266</real>
-					</array>
-					<array>
-						<real>14.497566223144531</real>
-						<real>39.476570129394531</real>
-					</array>
-					<array>
-						<real>16.742195129394531</real>
-						<real>36.606452941894531</real>
-					</array>
-				</array>
-				<array>
-					<array>
-						<real>18.120613098144531</real>
-						<real>28.51220703125</real>
-					</array>
-					<array>
-						<real>18.743171691894531</real>
-						<real>26.890138626098633</real>
-					</array>
-					<array>
-						<real>24.495124816894531</real>
-						<real>26.890138626098633</real>
-					</array>
-					<array>
-						<real>24.617195129394531</real>
-						<real>28.762699127197266</real>
-					</array>
-				</array>
-				<array>
-					<array>
-						<real>24.617195129394531</real>
-						<real>28.762699127197266</real>
-					</array>
-					<array>
-						<real>28.484382629394531</real>
-						<real>29.259769439697266</real>
-					</array>
-					<array>
-						<real>28.401453018188477</real>
-						<real>33.138526916503906</real>
-					</array>
-					<array>
-						<real>24.867195129394531</real>
-						<real>36.606452941894531</real>
-					</array>
-					<array>
-						<real>16.742195129394531</real>
-						<real>36.606452941894531</real>
-					</array>
-					<array>
-						<real>13.125007629394531</real>
-						<real>33.481941223144531</real>
-					</array>
-					<array>
-						<real>13.125007629394531</real>
-						<real>29.613775253295898</real>
-					</array>
-					<array>
-						<real>18.120613098144531</real>
-						<real>28.51220703125</real>
 					</array>
 				</array>
 			</array>
@@ -379,28 +287,9 @@
 			<key>soundChannel</key>
 			<dict>
 				<key>isExpanded</key>
-				<true/>
+				<false/>
 				<key>keyframes</key>
-				<array>
-					<dict>
-						<key>easing</key>
-						<dict>
-							<key>type</key>
-							<integer>0</integer>
-						</dict>
-						<key>time</key>
-						<real>0.0</real>
-						<key>type</key>
-						<integer>11</integer>
-						<key>value</key>
-						<array>
-							<string>missile_launch.wav</string>
-							<real>1</real>
-							<real>0.0</real>
-							<real>1</real>
-						</array>
-					</dict>
-				</array>
+				<array/>
 				<key>type</key>
 				<integer>11</integer>
 			</dict>
