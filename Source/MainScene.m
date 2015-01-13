@@ -11,7 +11,7 @@ bool gameStarted = FALSE;
         _btnStartGame.visible = FALSE;
         _lblDescription.visible = FALSE;
         
-        [_level gameStarted];
+        [_level startNewGame];
         
         gameStarted = TRUE;
         return;

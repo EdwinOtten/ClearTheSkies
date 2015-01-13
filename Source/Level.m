@@ -7,30 +7,17 @@
 //
 
 #import "Level.h"
-#import "Paratrooper.h"
 #import "Airplane.h"
 #import "Missile.h"
 #include <CCTextureCache.h>
 
 @implementation Level
 
-NSMutableArray *paratroopers;
-NSMutableArray *missiles;
-NSMutableArray *airplanes;
-int score = 10;
-int lives = 3;
+int score;
+int lives;
+float difficulty;
 float minDelay,maxDelay;
-
-- (void) onEnter {    
-    paratroopers = [[NSMutableArray alloc] initWithCapacity:40];
-    missiles = [[NSMutableArray alloc] initWithCapacity:40];
-    self.userInteractionEnabled = TRUE;
-    [super onEnter];
-    
-    minDelay = 4.0;                      // seconds
-    maxDelay = 8.0;                      // seconds
-    _spawnEnabled = FALSE;
-}
+BOOL spawnEnabled;
 
 - (void)didLoadFromCCB {
     _physicsNode.collisionDelegate = self;
@@ -43,19 +30,50 @@ float minDelay,maxDelay;
     }
 }
 
--(void)gameStarted {
-    CGPoint levelPosition = self.position;
-    levelPosition.x -= 182;
+-(void)startNewGame {
+    [self startNewGame:1.0f];
+}
+
+-(void)startNewGame:(float)difficultyLevel {
     
+    // Set difficulty
+    difficulty = difficultyLevel;
+    minDelay = 4.0;                      // seconds
+    maxDelay = 8.0;                      // seconds
+    
+    // Reset default values
+    [self updateLives:3];
+    [self updateScore:10];
+    self.userInteractionEnabled = TRUE;
+    
+    // Move level into view
+    CGPoint levelPosition = self.position;
+    levelPosition.x = -182;
     CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:levelPosition];
     [self runAction:actionMoveTo];
     
     // start spawning airplanes
-    self.spawnEnabled = TRUE;
+    spawnEnabled = TRUE;
     [self scheduleOnce:@selector(spawnAirplane) delay:2];
     
+    // Make sure the city and lives counter is visible
+    _imgCity.color = [CCColor colorWithCcColor3b:ccWHITE];
     _imgHeart.visible = TRUE;
     _lblLives.visible = TRUE;
+}
+
+-(void)gameOver {
+    self.userInteractionEnabled = TRUE;
+    spawnEnabled = FALSE;
+    
+    // make the city explode
+    [self explodeCity];
+    
+    CCNode* gameOverScreen = [CCBReader load:@"GameOver"];
+    CGPoint gameOverPos = gameOverScreen.position;
+    gameOverPos.x = 750;
+    gameOverScreen.position = gameOverPos;
+    [self performSelector:@selector(addChild:) withObject:gameOverScreen afterDelay:2.4f];
 }
 
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair missile:(CCNode *)nodeA airplane:(CCNode *)nodeB
@@ -68,34 +86,34 @@ float minDelay,maxDelay;
     [self addChild:explosion];
     
     [self playSoundExplode];
-    [nodeA removeFromParentAndCleanup:TRUE];
-    [nodeB removeFromParentAndCleanup:TRUE];
+    [nodeA removeFromParent];
+    [nodeB removeFromParent];
     
     // Add 5 points for hitting a airplane
-    score += 5;
-    _lblPoints.string = [NSString stringWithFormat:@"%d points", score];
+    [self updateScore:score+5];
 }
 
 -(void)planeLeftScreen {
-    // If this was you last life, explode the city
+    // If this was you last life, you're game over
     if(lives == 1) {
-        _spawnEnabled = FALSE;
-        
-        // make the city explode
-        [self explodeCity];
-        
-        CCNode* gameOverScreen = [CCBReader load:@"GameOver"];
-        CGPoint gameOverPos = gameOverScreen.position;
-        gameOverPos.x = 750;
-        gameOverScreen.position = gameOverPos;
-        [self performSelector:@selector(addChild:) withObject:gameOverScreen afterDelay:3.0f];
+        [self gameOver];
+        [self updateLives:lives-1];
     }
     
     // Substract 1 life for letting a plane pass
     if(lives > 0) {
-        lives -= 1;
-        _lblLives.string = [NSString stringWithFormat:@"%d", lives];
+        [self updateLives:lives-1];
     }
+}
+
+-(void)updateLives:(int)newLives {
+    lives = newLives;
+    _lblLives.string = [NSString stringWithFormat:@"%d", lives];
+}
+
+-(void)updateScore:(int)newScore {
+    score = newScore;
+    _lblPoints.string = [NSString stringWithFormat:@"%d points", score];
 }
 
 -(void)fireMissile:(CGPoint)clickLocation {
@@ -126,15 +144,13 @@ float minDelay,maxDelay;
     
     //Add the missile to the physics node
     [_physicsNode addChild:missile];
-    [missiles addObject:missile];
     
     //Apply a force to the missile
     CGPoint force = ccpMult(directionVector, 10000);
     [missile.physicsBody applyForce:force];
     
     // Substract 1 point for firing this missile
-    score -= 1;
-    _lblPoints.string = [NSString stringWithFormat:@"%d points", score];
+    [self updateScore:score-1];
 }
 
 -(CGFloat) calculateMissileDegree:(CGPoint*)clickPoint {
@@ -151,14 +167,13 @@ float minDelay,maxDelay;
 
 -(void)spawnAirplane {
     // check if spawning is actually allowed
-    if(!_spawnEnabled) return;
+    if(!spawnEnabled) return;
     
     // create and add a plane at the random coordinate
     Airplane* airplane = (Airplane*) [CCBReader load:@"Airplane"];
-    int speedIncrease = score / 2;
+    int speedIncrease = (score / 2) + 10*difficulty;
     [airplane spawn:speedIncrease];
     [_physicsNode addChild:airplane];
-    [airplanes addObject:airplane];
     
     // compute the next spawn time
     u_int32_t delta = (u_int32_t) (ABS(maxDelay-minDelay)*1000);  // ms resolution

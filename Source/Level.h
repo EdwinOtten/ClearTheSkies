@@ -18,9 +18,8 @@
     CCNode* _imgCity;
 }
 
-@property BOOL spawnEnabled;
+-(void)startNewGame;
 -(void)spawnAirplane;
 -(void)planeLeftScreen;
--(void)gameStarted;
 
 @end

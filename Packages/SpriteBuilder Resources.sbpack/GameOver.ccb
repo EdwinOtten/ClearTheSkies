@@ -125,7 +125,7 @@
 							<real>0.0</real>
 							<real>0.0</real>
 							<real>0.0</real>
-							<real>0.60000002384185791</real>
+							<real>0.69999998807907104</real>
 						</array>
 					</dict>
 					<dict>
@@ -134,7 +134,7 @@
 						<key>type</key>
 						<string>Float</string>
 						<key>value</key>
-						<real>0.60000002384185791</real>
+						<real>0.69999998807907104</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -146,7 +146,7 @@
 							<real>0.0</real>
 							<real>0.0</real>
 							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.10000000149011612</real>
 						</array>
 					</dict>
 					<dict>
@@ -155,7 +155,7 @@
 						<key>type</key>
 						<string>Float</string>
 						<key>value</key>
-						<real>0.0</real>
+						<real>0.10000000149011612</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -594,7 +594,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>TapToPlay</string>
+				<string>PlayAgain</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -654,7 +654,7 @@
 						<string>Block</string>
 						<key>value</key>
 						<array>
-							<string>btnStartGamePressed:</string>
+							<string>btnPlayAgainPressed:</string>
 							<integer>1</integer>
 						</array>
 					</dict>
@@ -909,12 +909,10 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>GameOver</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
@@ -983,6 +981,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>

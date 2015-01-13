@@ -11,8 +11,8 @@
 
 @implementation Airplane
 
-int minSpeed = 140;
-int maxSpeed = 180;
+int minSpeed = 130;
+int maxSpeed = 170;
 
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"airplane";
