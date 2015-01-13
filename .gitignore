@@ -27,6 +27,7 @@ xcuserdata
 *.xcuserstate
 *~.nib
 .DS_Store
+Icon^M^M
 
 # CocoaPods
 #
