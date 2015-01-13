@@ -13,5 +13,6 @@
 @property CGFloat speed;
 
 -(void)spawn;
+-(void)spawn:(int)speedIncrease;
 
 @end

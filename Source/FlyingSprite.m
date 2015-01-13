@@ -8,24 +8,23 @@
 
 #import "FlyingSprite.h"
 
-@interface FlyingSprite ()
-- (void)update:(CCTime)delta;
-@end
-
-
 @implementation FlyingSprite
 -(void)update:(CCTime)delta {
     
     static float timeSinceLastTick = 0.f;
     
     timeSinceLastTick += delta;
-    if (timeSinceLastTick > 2.0f) {
+    if (timeSinceLastTick > 1.0f) {
         timeSinceLastTick=0.f;
         if ([self outOfScreen]) {
+            [self leftScreen];
             [self removeFromParent];
             return;
         }
     }
+}
+
+-(void)leftScreen {
 }
 
 -(BOOL)outOfScreen {

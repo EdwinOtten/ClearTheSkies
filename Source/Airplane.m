@@ -7,15 +7,19 @@
 //
 
 #import "Airplane.h"
+#import "Level.h"
 
 @implementation Airplane
 
+int minSpeed = 140;
+int maxSpeed = 180;
+
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"airplane";
+    self.speed = 0;
 }
 
 -(void)update:(CCTime)delta {
-    
     [self
      moveTo:self.position.x - _speed/30
      y:self.position.y
@@ -24,9 +28,17 @@
     [super update:delta];
 }
 
+-(void)leftScreen {
+    Level* levelScene = (Level*) self.parent.parent;
+    [levelScene planeLeftScreen];
+}
+
 -(void)spawn {
+    [self spawn:0];
+}
+-(void)spawn:(int)speedIncrease {
     // compute random speed between 60 and 100
-    _speed = 70 + arc4random() % (100 - 70);
+    _speed = (minSpeed + arc4random() % (maxSpeed - minSpeed)) + speedIncrease;
     
     // compute random spawning position
     int lowerBound = 240;

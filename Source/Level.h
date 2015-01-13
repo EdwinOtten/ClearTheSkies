@@ -12,9 +12,15 @@
 {
     CCPhysicsNode* _physicsNode;
     CCNode* _launcher;
+    CCLabelTTF* _lblPoints;
+    CCLabelTTF* _lblLives;
+    CCNode* _imgHeart;
+    CCNode* _imgCity;
 }
 
 @property BOOL spawnEnabled;
 -(void)spawnAirplane;
+-(void)planeLeftScreen;
+-(void)gameStarted;
 
 @end

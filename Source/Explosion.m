@@ -13,7 +13,7 @@
 - (void) didLoadFromCCB
 {
     // Setup a delegate method for the animationManager of the explostion
-    CCBAnimationManager* animationManager = self.userObject;
+    CCAnimationManager* animationManager = self.userObject;
     animationManager.delegate = self;
 }
 

@@ -9,15 +9,9 @@ bool gameStarted = FALSE;
     if (!gameStarted) {
         _gameTitle.visible = FALSE;
         _btnStartGame.visible = FALSE;
-        CGPoint levelPosition = _level.position;
-        levelPosition.x -= 182;
+        _lblDescription.visible = FALSE;
         
-        CCActionMoveTo *actionMoveTo = [CCActionMoveTo actionWithDuration:1.f position:levelPosition];
-        [_level runAction:actionMoveTo];
-        
-        // start spawning airplanes
-        _level.spawnEnabled = TRUE;
-        [_level scheduleOnce:@selector(spawnAirplane) delay:2];
+        [_level gameStarted];
         
         gameStarted = TRUE;
         return;

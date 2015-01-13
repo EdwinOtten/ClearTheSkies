@@ -7,7 +7,7 @@
 		<key>Sprites/airplane_000.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{728, 1711}, {175, 50}}</string>
+			<string>{{905, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -33,7 +33,7 @@
 		<key>Sprites/airplane_002.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1082, 1711}, {175, 50}}</string>
+			<string>{{1259, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -59,7 +59,7 @@
 		<key>Sprites/airplane_004.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1259, 1711}, {175, 50}}</string>
+			<string>{{1436, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -72,7 +72,7 @@
 		<key>Sprites/airplane_005.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{267, 1763}, {175, 50}}</string>
+			<string>{{1995, 787}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -85,7 +85,7 @@
 		<key>Sprites/airplane_006.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1983}, {175, 50}}</string>
+			<string>{{53, 1983}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -98,7 +98,7 @@
 		<key>Sprites/airplane_007.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1995, 964}, {175, 50}}</string>
+			<string>{{1995, 1141}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -124,7 +124,7 @@
 		<key>Sprites/airplane_009.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{905, 1711}, {175, 50}}</string>
+			<string>{{1082, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -150,7 +150,7 @@
 		<key>Sprites/airplane_011.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1436, 1711}, {175, 50}}</string>
+			<string>{{1613, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -163,7 +163,7 @@
 		<key>Sprites/airplane_012.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1995, 787}, {175, 50}}</string>
+			<string>{{1995, 964}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -176,7 +176,7 @@
 		<key>Sprites/airplane_013.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{178, 1983}, {175, 50}}</string>
+			<string>{{230, 1983}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -189,11 +189,11 @@
 		<key>Sprites/airplane_014.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1995, 1141}, {175, 50}}</string>
+			<string>{{728, 1711}, {175, 50}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
-			<true/>
+			<false/>
 			<key>sourceColorRect</key>
 			<string>{{0, 0}, {175, 50}}</string>
 			<key>sourceSize</key>
@@ -241,7 +241,7 @@
 		<key>Sprites/dual-grass-animated-01.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1764, 1027}, {391, 112}}</string>
+			<string>{{981, 657}, {391, 112}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -254,7 +254,7 @@
 		<key>Sprites/dual-grass-animated-02.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1878, 1180}, {391, 112}}</string>
+			<string>{{1209, 657}, {391, 112}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -358,7 +358,7 @@
 		<key>Sprites/dual-grass-animated-10.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1650, 1050}, {391, 112}}</string>
+			<string>{{1095, 657}, {391, 112}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -397,7 +397,7 @@
 		<key>Sprites/dual-grass-animated-13.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1767, 634}, {391, 112}}</string>
+			<string>{{1767, 543}, {391, 112}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -462,7 +462,7 @@
 		<key>Sprites/dual-grass-animated_00.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1650, 657}, {391, 112}}</string>
+			<string>{{1640, 657}, {391, 112}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -475,7 +475,7 @@
 		<key>Sprites/gunbarrel.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{355, 2027}, {14, 99}}</string>
+			<string>{{407, 2027}, {14, 99}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -488,7 +488,7 @@
 		<key>Sprites/gunbase-0.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{614, 1763}, {257, 262}}</string>
+			<string>{{666, 1763}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -501,7 +501,7 @@
 		<key>Sprites/gunbase-1.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{728, 772}, {257, 262}}</string>
+			<string>{{1246, 1050}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -514,7 +514,7 @@
 		<key>Sprites/gunbase-2.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{355, 1763}, {257, 262}}</string>
+			<string>{{407, 1763}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -527,7 +527,7 @@
 		<key>Sprites/gunbase-3.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1650, 1750}, {257, 262}}</string>
+			<string>{{987, 1050}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -540,7 +540,7 @@
 		<key>Sprites/gunbase-4.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{987, 921}, {257, 262}}</string>
+			<string>{{1790, 1318}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -553,7 +553,7 @@
 		<key>Sprites/gunbase-5.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1391, 1763}, {257, 262}}</string>
+			<string>{{728, 1050}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -566,7 +566,7 @@
 		<key>Sprites/gunbase-6.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{987, 657}, {257, 262}}</string>
+			<string>{{1443, 1763}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -579,7 +579,7 @@
 		<key>Sprites/gunbase-7.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1132, 1763}, {257, 262}}</string>
+			<string>{{1184, 1763}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -592,7 +592,7 @@
 		<key>Sprites/gunbase-8.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{728, 1036}, {257, 262}}</string>
+			<string>{{1505, 1050}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -605,7 +605,7 @@
 		<key>Sprites/gunbase-9.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{873, 1763}, {257, 262}}</string>
+			<string>{{925, 1763}, {257, 262}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -615,10 +615,23 @@
 			<key>sourceSize</key>
 			<string>{257, 262}</string>
 		</dict>
+		<key>Sprites/heart.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1983}, {54, 50}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {54, 50}}</string>
+			<key>sourceSize</key>
+			<string>{54, 50}</string>
+		</dict>
 		<key>Sprites/missile.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1767, 543}, {89, 126}}</string>
+			<string>{{267, 1763}, {89, 126}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -696,7 +709,7 @@
 		<key>Sprites/paratrooper_005.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1640, 1573}, {96, 175}}</string>
+			<string>{{1764, 936}, {96, 175}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
@@ -709,7 +722,7 @@
 		<key>Sprites/paratrooper_006.PNG</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1764, 1420}, {96, 175}}</string>
+			<string>{{1764, 1113}, {96, 175}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>

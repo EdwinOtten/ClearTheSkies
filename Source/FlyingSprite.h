@@ -10,4 +10,7 @@
 
 @interface FlyingSprite : CCSprite
 
+-(void)leftScreen;
+- (void)update:(CCTime)delta;
+
 @end

@@ -9,7 +9,4 @@
 #import "FlyingSprite.h"
 
 @interface Missile : FlyingSprite
-
-- (void)playSoundExplode;
-
 @end
